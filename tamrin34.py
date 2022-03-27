@@ -3,7 +3,7 @@ big = None
 small = None
 count = 0
 while True:
-            numbers = float(input('Enter a positive number: '))
+            numbers = float(input('Enter ecaxtly 20  numbers: '))
             sum += numbers
             count += 1
             if big is None or numbers > big:
