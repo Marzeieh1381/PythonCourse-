@@ -16,3 +16,4 @@ for i in range(n) :
    a =(d*(z))
    sine=sine + (a/fact*(2*i+1))
    print (sine)    
+   break 
