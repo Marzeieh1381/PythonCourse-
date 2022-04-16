@@ -9,7 +9,7 @@ def TowerOfHanoi(n , s_pole, d_pole, i_pole):
 def movedisc(n,s_pole,d_pole):
     print("move disc " ,n,"from ",s_pole ,"to pole",d_pole)
     
-n=int(input("enter a number :"))
+n=int(input("enter a number of disc :"))
 
 
 TowerOfHanoi(n, "A", "B", "C")
